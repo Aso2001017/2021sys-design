@@ -1,0 +1,16 @@
+```
+@startuml
+start
+:weather=天気情報;
+if(weatherが0)then(yes)
+  :晴れです;
+elseif(wearherが1)then(yes)
+  :曇りです;
+elseif(weatherが2)then(yes)
+  :雨です;
+else
+  :不明です;
+endif
+end
+@enduml
+```
