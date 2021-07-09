@@ -37,7 +37,7 @@
 
 |属性名|型|PK|NN|FK|
 |:---|:---|:---|:---:|:---:|
-|category_id|int(11)||〇||
+|category_id|int(11)||〇|〇|
 |name|varchar(20)||〇||
 |reg_date|date||〇||
 
