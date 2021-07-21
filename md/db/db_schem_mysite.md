@@ -8,6 +8,15 @@
 
 ### 個人情報
 
+|和名|属性名|型|PK|NN|FK|
+|:---|:---|:---|:---|:---:|:---:|
+|顧客ID|customer_id|int(50)|〇|〇|〇|
+|氏名|name|varchar(50)||〇||
+|電話番号|phone_number|int(10)||〇||
+|住所|address|varchar(50)||〇||
+|登録メールアドレス|mail|varchar(30)||〇||
+
+
 ### 登録状況(register_status)
 
 |和名|属性名|型|PK|NN|FK|
